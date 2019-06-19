@@ -1,6 +1,10 @@
 <template lang="html">
-  <li v-on:click="handleClick">{{country.name}}</li>
-
+  <div>
+    <!-- <select v-model="country" >
+      <option :value="country.name" v-on:click="handleClick">{{country.name}}</option>
+    </select> -->
+    <li v-on:click="handleClick">{{country.name}}</li>
+  </div>
 </template>
 
 <script>
@@ -15,6 +19,5 @@ export default {
   }
 }
 </script>
-
 <style lang="css" scoped>
 </style>

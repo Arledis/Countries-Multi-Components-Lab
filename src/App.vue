@@ -2,7 +2,7 @@
   <div>
     <h1>Countries</h1>
     <div class="main-container">
-      <countries-list :countries='countries'></countries-list>
+        <countries-list :countries='countries'></countries-list>
       <country-detail :country="selectedCountry"></country-detail>
     </div>
   </div>
@@ -42,6 +42,16 @@ components: {
 .main-container {
   display: flex;
   justify-content: space-between;
+
+}
+body{
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  color: white;
+}
+h1 {
+  text-align: center;
+  color: black;
+
 
 }
 </style>
